@@ -155,3 +155,31 @@ form{
     background-color: #9D5CE9;
     transition: all 0.8s ease;
 }
+
+@media (max-width: 1194px) {
+
+    body{
+        position: relative;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+
+    .title{
+        font-size: 40px;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .right{
+        padding: 2rem;
+    }
+
+    .slogan-text{
+        display: none;
+    }
+}
