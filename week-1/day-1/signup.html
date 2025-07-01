@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <img src="./assets/logo.svg" alt="logo">
+                <span class="logo-text">Irfan<br><span class="logo-text-sub">SUBAŞI</span></span>
+            </div>
+            <div class="slogan">
+                <div class="slogan-text">
+                    <span>SIGN IN TO YOUR</span><br>
+                    <span class="slogan-text-sub">ADVENTURE!</span>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <h1 class="title">SIGN UP</h1>
+            <form action="/submit" method="post">
+                <div class="form-group">
+                    <label for="name">Name Surname</label>
+                    <input type="text" id="name" name="name" placeholder="Irfan Subaşı" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="irfansubasi@useinsider.com(i wish)" required>      
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+                </div>
+                <div class="form-group-link">
+                    <span>Do you already have an account?</span>
+                    <a href="login.html">Login!</a>
+                </div>
+                
+                <button class="btn" type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
