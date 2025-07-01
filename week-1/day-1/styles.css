@@ -1,0 +1,157 @@
+:root{
+    --primary-color: #160430;
+    --secondary-color: #3B2063;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.left{
+    flex: 2;
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("./assets/bg.png") no-repeat center center;
+    background-size: cover;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.logo-text-sub{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.slogan-text{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.slogan-text-sub{
+    color: #9D5CE9;
+}
+
+.right{
+    flex: 1;
+    padding: 0 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+.title{
+    font-size: 70px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group input{
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+}
+
+.form-group-checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group-checkbox input{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.form-group-checkbox input:checked::after {
+    content: '✓';
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+.form-group-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group-link a{
+    color: #9D5CE9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #501794;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #9D5CE9;
+    transition: all 0.8s ease;
+}
