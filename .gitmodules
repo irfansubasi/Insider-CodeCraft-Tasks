@@ -4,3 +4,6 @@
 [submodule "week-1/day-2/CodeCraft-Form-Style-Task"]
 	path = week-1/day-2/CodeCraft-Form-Style-Task
 	url = https://github.com/irfansubasi/CodeCraft-Form-Style-Task.git
+[submodule "week-1/day-3/CodeCraft-Product-Showcase"]
+	path = week-1/day-3/CodeCraft-Product-Showcase
+	url = https://github.com/irfansubasi/CodeCraft-Product-Showcase.git
