@@ -10,3 +10,12 @@
 [submodule "week-1/week-project/CodeCraft-Black-Mirror"]
 	path = week-1/week-project/CodeCraft-Black-Mirror
 	url = https://github.com/irfansubasi/CodeCraft-Black-Mirror.git
+[submodule "week-2/day-1/CodeCraft-Simple-Shopping-Card-Js"]
+	path = week-2/day-1/CodeCraft-Simple-Shopping-Card-Js
+	url = https://github.com/irfansubasi/CodeCraft-Simple-Shopping-Card-Js.git
+[submodule "week-2/day-2/CodeCraft-Longest-Collatz-Sequence"]
+	path = week-2/day-2/CodeCraft-Longest-Collatz-Sequence
+	url = https://github.com/irfansubasi/CodeCraft-Longest-Collatz-Sequence.git
+[submodule "week-2/day-3/Codecraft-Timer"]
+	path = week-2/day-3/Codecraft-Timer
+	url = https://github.com/irfansubasi/Codecraft-Timer.git
