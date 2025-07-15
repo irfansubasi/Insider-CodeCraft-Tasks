@@ -22,6 +22,3 @@
 [submodule "week-2/week-project/CodeCraft-RPG-ToDo-List"]
 	path = week-2/week-project/CodeCraft-RPG-ToDo-List
 	url = https://github.com/irfansubasi/CodeCraft-RPG-ToDo-List
-[submodule "week-2/day-1/CodeCraft-Simple-jQuery-Student-Management"]
-	path = week-2/day-1/CodeCraft-Simple-jQuery-Student-Management
-	url = https://github.com/irfansubasi/CodeCraft-Simple-jQuery-Student-Management.git
