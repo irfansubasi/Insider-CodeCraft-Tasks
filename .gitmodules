@@ -19,3 +19,6 @@
 [submodule "week-2/day-3/Codecraft-Timer"]
 	path = week-2/day-3/Codecraft-Timer
 	url = https://github.com/irfansubasi/Codecraft-Timer.git
+[submodule "week-2/week-project/CodeCraft-RPG-ToDo-List"]
+	path = week-2/week-project/CodeCraft-RPG-ToDo-List
+	url = https://github.com/irfansubasi/CodeCraft-RPG-ToDo-List
